@@ -1,5 +1,4 @@
 import Groq from 'groq-sdk';
-import { Transcriptions } from './path-to-transcriptions-class';
 
 const client = new Groq({
   apiKey: process.env['GROQ_API_KEY'],
